@@ -8,6 +8,34 @@ Adaptive lessons, interactive quizzes, and learning notes that resume across Cod
 | Quiz | Practice with single/multiple-choice questions and validated feedback. |
 | Review | Resume from saved evidence and revisit unresolved gaps. |
 
+## Function overview
+
+Start with a topic, code, a document, or a web source. Move between lessons, practice, and review as your understanding grows.
+
+```mermaid
+flowchart TD
+    source["Topic · Code · Document · Web source"] --> learn
+    learn["Learn<br/>Check foundations · Explain concepts<br/>Connect ideas · Work through examples"]
+    learn --> quiz["Quiz<br/>Single or multiple choice<br/>Immediate feedback · Chat fallback"]
+    quiz --> save["Continue and save<br/>Codex validates answers and confirms saving"]
+    learn -->|Save a learning checkpoint| progress[("Local learning workspace<br/>Progress · Quiz history · Notes")]
+    save --> progress
+    progress --> review["Review<br/>Resume saved progress<br/>Revisit gaps · Choose the next step"]
+    review -->|Build understanding| learn
+    review -->|Check understanding| quiz
+
+    classDef learning fill:#dbeafe,stroke:#2563eb,color:#172554
+    classDef practice fill:#fef3c7,stroke:#d97706,color:#451a03
+    classDef reviewing fill:#ede9fe,stroke:#7c3aed,color:#2e1065
+    classDef storage fill:#dcfce7,stroke:#16a34a,color:#052e16
+    class learn learning
+    class quiz,save practice
+    class review reviewing
+    class progress storage
+```
+
+Saved files let a new Codex task resume your learning. Quiz attempts are saved only after Codex validates the submitted answers and confirms the write.
+
 ## Requirements
 
 - Codex with plugin support and the `codex` CLI on PATH for the commands below.
