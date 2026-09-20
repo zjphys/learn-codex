@@ -1,0 +1,4 @@
+interface:
+  display_name: "Quiz"
+  short_description: "Interactive practice with validated saved answers"
+  default_prompt: "Use $quiz to check my understanding of this lesson."

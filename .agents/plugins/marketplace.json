@@ -1,0 +1,20 @@
+{
+  "name": "codex-learning",
+  "interface": {
+    "displayName": "Codex Learning"
+  },
+  "plugins": [
+    {
+      "name": "learn-codex",
+      "source": {
+        "source": "local",
+        "path": "./plugins/learn-codex"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "learn-codex",
+  "version": "0.1.0",
+  "description": "Adaptive lessons, interactive quizzes, and workspace-backed learning progress in Codex.",
+  "author": {
+    "name": "zjphys"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Learn with Codex",
+    "shortDescription": "Learn, practice, and resume with evidence.",
+    "longDescription": "Learn from foundations with native research and visuals, graded quizzes, and Markdown notes saved in your learning workspace.",
+    "developerName": "zjphys",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "defaultPrompt": ["Teach me TCP from the foundations.", "Quiz me on this lesson.", "Review my gaps and continue learning."]
+  }
+}

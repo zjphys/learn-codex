@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review learning"
+  short_description: "Review evidence and revisit your learning gaps"
+  default_prompt: "Use $review to inspect my learning gaps and next step."

@@ -1,0 +1,32 @@
+<div id="__ROOT_ID__" aria-label="Learning quiz">
+  <h2 data-heading></h2>
+  <form data-quiz></form>
+  <div data-continue-wrap hidden>
+    <div class="viz-controls">
+      <button type="button" class="btn btn-primary" data-continue>Continue and save</button>
+    </div>
+  </div>
+  <p data-status class="text-small" aria-live="polite"></p>
+  <div data-fallback hidden>
+    <label class="form-label">Send this to Codex to save your answers
+      <textarea class="form-control" data-payload readonly rows="5"></textarea>
+    </label>
+  </div>
+</div>
+<style>
+  #__ROOT_ID__ { color: var(--foreground); overflow-wrap: anywhere; }
+  #__ROOT_ID__ fieldset { border: 0; padding: 0; margin: 0 0 1.5rem; min-width: 0; }
+  #__ROOT_ID__ legend { font-weight: 500; margin-bottom: .5rem; max-width: 100%; }
+  #__ROOT_ID__ [data-options] { display: grid; gap: .5rem; }
+  #__ROOT_ID__ [data-feedback] { margin-top: .75rem; }
+  #__ROOT_ID__ [data-question-actions] { margin-top: .75rem; }
+  #__ROOT_ID__ [data-error] { color: var(--destructive); }
+</style>
+<script>
+(() => {
+  const data = /*__DATA__*/;
+  /*__GRADING__*/
+  /*__ADAPTER__*/
+  /*__CLIENT__*/
+})();
+</script>

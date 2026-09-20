@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learn"
+  short_description: "Adaptive teaching with saved learning checkpoints"
+  default_prompt: "Use $learn to teach me TCP from its foundations."
