@@ -6,7 +6,7 @@ A reusable Codex plugin for connected understanding, interactive practice, and r
 
 After installation, open a **new Codex task** in the folder where you want to learn. Select Learn, Quiz, or Review learning from the plugin's skills, or ask:
 
-- “Teach me TCP from its foundations.”
+- “Use Learn with Codex to teach me [topic]. I already know [background]. My goal is [goal]. Teach one concept at a time, use examples, and quiz me before moving on.”
 - “Quiz me on this lesson.”
 - “Review my gaps and continue learning.”
 
@@ -23,9 +23,9 @@ Quizzes give immediate feedback. Click **Continue and save** and send the follow
 
 ## Installation and updates
 
-This plugin is distributed through the repository's `codex-learning` marketplace. From the repository root, run `codex plugin marketplace add .`, followed by `codex plugin add learn-codex@codex-learning`. For GitHub installation, replace the dot with the published `OWNER/learn-codex` repository. Open a fresh task after installation.
+This plugin is distributed through the repository's `codex-learning` marketplace. From the repository root, run `codex plugin marketplace add .`, followed by `codex plugin add learn-codex@codex-learning`. For GitHub installation, replace the dot with `zjphys/learn-codex`. Open a fresh task after installation.
 
-Keep the repository checkout as the editable source. Validate and test changes, update the version for a release, then refresh the marketplace and reinstall. The installed plugin cache is not the source directory. Full publication and update instructions live in the repository's root README and PUBLISHING.md.
+Keep the repository checkout as the editable source. Validate and test changes, update the version for a release, then refresh the marketplace and reinstall. The installed plugin cache is not the source directory. See the [repository README](../../README.md#installation) for installation and update commands.
 
 ## Saved data
 
